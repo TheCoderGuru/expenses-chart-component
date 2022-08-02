@@ -69,6 +69,7 @@ body{
 .container-bottom{
     background-color: lightgrey;
     margin-inline: 2em;
+        width: fit-content;
     border-radius: .3em;
     padding: 2em;
 }
@@ -76,7 +77,7 @@ body{
 .h-60{
     background-color: var(--soft-red);
     height: 60px;
-    margin-right: 2em;
+    margin-right: 1em;
     width: 40px;
     border-radius: .3em;
 }
@@ -90,8 +91,23 @@ body{
 .h-80{
     background-color: var(--soft-red);
     height: 110px;
-    margin-right: 2em;
+    margin-right: 1em;
     width: 40px;
     border-radius: .3em;
     transform: rotate(-360deg);
+}
+
+.h-120{
+    background-color: var(--cyan);
+    height: 130px;
+    transform-origin: bottom;
+    margin-right: 1em;
+    width: 40px;
+    border-radius: .3em;
+    transform: rotate(-360deg);
+}
+
+.lower-container{
+    margin: 0 auto;
+    display: flex;
 }
